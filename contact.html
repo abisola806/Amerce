@@ -19,15 +19,32 @@
     </nav>
   </header>
 
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+  <main>
+    <div class="container">
+        <section class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you! Whether you have a question about our products, pricing, or anything else, our team is ready to answer all your questions.</p>
+            <p><strong>Email:</strong> support@amerce.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </div>
+  </main>
 
   <footer>
     <p>&copy; 2025 Amerce. All rights reserved.</p>
